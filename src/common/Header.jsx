@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Logo from "../assets/images/logo.png";
 export const Header = () => {
   return (
-    <div>
+    <div className="header">
       <Container>
         <Row>
           <div className="col-md-3">
@@ -32,7 +32,6 @@ export const Header = () => {
           </div>
         </Row>
       </Container>
-      ;
     </div>
   );
 };
