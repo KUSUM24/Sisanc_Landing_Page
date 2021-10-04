@@ -89,3 +89,70 @@ button.btn.btn-contact {
   border-radius: 4px;
   margin-top: 15px;
 }
+.about-us-sec {
+  padding: 100px 0;
+}
+
+.about-us-text h2 {
+  text-transform: capitalize;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.about-us-text p {
+  text-align: justify;
+  font-size: 15px;
+  color: #575656;
+  margin-bottom: 15px;
+}
+
+.title-sec {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.title-sec h4 {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #5219a4;
+  letter-spacing: 0.6px;
+}
+
+.title-sec h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.title-sec p {
+  color: #999999;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.icon {
+  background: #7935d79c;
+  width: 60px;
+  padding: 12px;
+  border-radius: 12px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.single-service h3 {
+  font-size: 17px;
+}
+
+.single-service p {
+  font-size: 14px;
+  color: #696969;
+  letter-spacing: 0.3px;
+}
+
+.single-service {
+  margin-bottom: 50px;
+}
+
+.services {
+  background: #f5efff;
+  padding: 80px 0 30px;
+}
