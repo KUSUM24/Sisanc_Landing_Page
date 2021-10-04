@@ -1,4 +1,5 @@
 import React from "react";
+import { Footer } from "./common/Footer";
 import { FirstBanner } from "./components/FirstBanner";
 import { SecondBanner } from "./components/SecondBanner";
 import { ServicesSection } from "./components/ServicesSection";
@@ -13,6 +14,7 @@ function App() {
       <ServicesSection />
       <WhyUsSection />
       <Testimonial />
+      <Footer />
     </div>
   );
 }

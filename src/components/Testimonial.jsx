@@ -28,7 +28,12 @@ export const Testimonial = () => {
           </p>
         </div>
         <Row>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="zoom-in"
+            data-aos-delay="150"
+            data-aos-duration="3000"
+          >
             <div class="single-testimonial">
               <div class="profile">
                 <img src={ProfileImg} class="img-fluid" />
@@ -42,7 +47,12 @@ export const Testimonial = () => {
               <h4>UI/UX Designer</h4>
             </div>
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="zoom-in"
+            data-aos-delay="150"
+            data-aos-duration="3000"
+          >
             <div class="single-testimonial">
               <div class="profile">
                 <img src={ProfileImg} class="img-fluid" />
@@ -56,7 +66,12 @@ export const Testimonial = () => {
               <h4>Graphic Designer</h4>
             </div>
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="zoom-in"
+            data-aos-delay="150"
+            data-aos-duration="3000"
+          >
             <div class="single-testimonial">
               <div class="profile">
                 <img src={ProfileImg} class="img-fluid" />
