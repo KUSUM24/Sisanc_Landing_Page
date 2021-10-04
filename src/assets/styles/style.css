@@ -42,11 +42,9 @@ h5,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
 }
-
 .container {
   max-width: 1170px !important;
 }
-
 .main-banner-sec {
   background-image: url(../images/header-banner.jpg);
   background-size: cover;
@@ -60,7 +58,7 @@ a.nav-link {
 }
 
 .header-banner {
-  margin-top: 90px;
+  margin-top: 110px;
 }
 
 .banner-text {
@@ -89,6 +87,7 @@ button.btn.btn-contact {
   border-radius: 4px;
   margin-top: 15px;
 }
+
 .about-us-sec {
   padding: 100px 0;
 }
@@ -152,7 +151,89 @@ button.btn.btn-contact {
   margin-bottom: 50px;
 }
 
-.services {
+.services,
+.testimonial {
   background: #f5efff;
   padding: 80px 0 30px;
+}
+
+span.whyus {
+  color: #7e57c2;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-size: 13px;
+}
+
+.single-points h3 {
+  font-size: 17px;
+  margin-bottom: 13px;
+}
+
+.single-points p {
+  font-size: 15px;
+  color: #444444;
+}
+
+.stand-out-sec h2 {
+  margin-bottom: 35px;
+}
+
+.single-points {
+  margin-bottom: 40px;
+}
+
+.single-points h3 img {
+  margin-right: 7px;
+}
+
+.stand-out-sec {
+  padding: 60px 0;
+}
+
+.testimonial {
+  background: #7e57c2;
+}
+
+.testimonial .title-sec {
+  color: #fff;
+}
+
+.testimonial .title-sec h4,
+.testimonial .title-sec p {
+  color: #d7d7d7;
+}
+
+.single-testimonial {
+  background: #f9f9f9;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile img {
+  max-width: 80px;
+  border: 3px solid #7e57c2;
+  border-radius: 100px;
+}
+
+.single-testimonial h3 {
+  font-size: 17px;
+}
+
+.single-testimonial p {
+  font-size: 14px;
+  margin: 17px 0;
+  color: #5d5d5d;
+}
+
+.single-testimonial h4 {
+  font-size: 11px;
+  color: #7e57c2;
 }

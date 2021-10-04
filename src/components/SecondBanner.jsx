@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import SecondBannerImg from "../assets/images/aboutus.png";
+import "../assets/styles/style.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
