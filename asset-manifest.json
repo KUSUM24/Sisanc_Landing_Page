@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/Sisanc_Landing_Page/static/css/main.282eaff4.chunk.css",
-    "main.js": "/Sisanc_Landing_Page/static/js/main.3150155c.chunk.js",
-    "main.js.map": "/Sisanc_Landing_Page/static/js/main.3150155c.chunk.js.map",
+    "main.css": "/Sisanc_Landing_Page/static/css/main.49edb998.chunk.css",
+    "main.js": "/Sisanc_Landing_Page/static/js/main.6810212b.chunk.js",
+    "main.js.map": "/Sisanc_Landing_Page/static/js/main.6810212b.chunk.js.map",
     "runtime-main.js": "/Sisanc_Landing_Page/static/js/runtime-main.6e3ef640.js",
     "runtime-main.js.map": "/Sisanc_Landing_Page/static/js/runtime-main.6e3ef640.js.map",
     "static/css/2.957d1974.chunk.css": "/Sisanc_Landing_Page/static/css/2.957d1974.chunk.css",
-    "static/js/2.2775318b.chunk.js": "/Sisanc_Landing_Page/static/js/2.2775318b.chunk.js",
-    "static/js/2.2775318b.chunk.js.map": "/Sisanc_Landing_Page/static/js/2.2775318b.chunk.js.map",
+    "static/js/2.b04f2802.chunk.js": "/Sisanc_Landing_Page/static/js/2.b04f2802.chunk.js",
+    "static/js/2.b04f2802.chunk.js.map": "/Sisanc_Landing_Page/static/js/2.b04f2802.chunk.js.map",
     "index.html": "/Sisanc_Landing_Page/index.html",
     "static/css/2.957d1974.chunk.css.map": "/Sisanc_Landing_Page/static/css/2.957d1974.chunk.css.map",
-    "static/css/main.282eaff4.chunk.css.map": "/Sisanc_Landing_Page/static/css/main.282eaff4.chunk.css.map",
-    "static/js/2.2775318b.chunk.js.LICENSE.txt": "/Sisanc_Landing_Page/static/js/2.2775318b.chunk.js.LICENSE.txt",
+    "static/css/main.49edb998.chunk.css.map": "/Sisanc_Landing_Page/static/css/main.49edb998.chunk.css.map",
+    "static/js/2.b04f2802.chunk.js.LICENSE.txt": "/Sisanc_Landing_Page/static/js/2.b04f2802.chunk.js.LICENSE.txt",
     "static/media/aboutus.867b8751.png": "/Sisanc_Landing_Page/static/media/aboutus.867b8751.png",
     "static/media/style.css": "/Sisanc_Landing_Page/static/media/header-banner.acd56b49.jpg",
     "static/media/header-img.54632b61.png": "/Sisanc_Landing_Page/static/media/header-img.54632b61.png",
-    "static/media/logo.4359e0fc.png": "/Sisanc_Landing_Page/static/media/logo.4359e0fc.png"
+    "static/media/logo.4359e0fc.png": "/Sisanc_Landing_Page/static/media/logo.4359e0fc.png",
+    "static/media/whyus.5c3b8d0b.png": "/Sisanc_Landing_Page/static/media/whyus.5c3b8d0b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6e3ef640.js",
     "static/css/2.957d1974.chunk.css",
-    "static/js/2.2775318b.chunk.js",
-    "static/css/main.282eaff4.chunk.css",
-    "static/js/main.3150155c.chunk.js"
+    "static/js/2.b04f2802.chunk.js",
+    "static/css/main.49edb998.chunk.css",
+    "static/js/main.6810212b.chunk.js"
   ]
 }
