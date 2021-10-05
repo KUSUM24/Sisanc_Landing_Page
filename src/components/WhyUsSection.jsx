@@ -23,9 +23,9 @@ export const WhyUsSection = () => {
         <Row>
           <div
             class="col-md-8"
-            data-aos="zoom-in-down"
-            data-aos-delay="150"
-            data-aos-duration="3000"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
           >
             <span class="whyus">Why Us</span>
             <h2>What Makes Us Stand Out</h2>
@@ -62,9 +62,9 @@ export const WhyUsSection = () => {
           </div>
           <div
             class="col-md-4"
-            data-aos="zoom-out-up"
-            data-aos-delay="150"
-            data-aos-duration="3000"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
           >
             <img src={WhyUsImg} class="img-fluid" />
           </div>

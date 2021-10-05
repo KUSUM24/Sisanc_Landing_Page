@@ -35,7 +35,12 @@ export const ServicesSection = () => {
         </div>
         <Row>
           {" "}
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-left"
+            data-aos-delay="150"
+            data-aos-duration="3000"
+          >
             <div class="single-service">
               <div class="icon">
                 <img
@@ -52,7 +57,12 @@ export const ServicesSection = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-left"
+            data-aos-delay="150"
+            data-aos-duration="3000"
+          >
             <div class="single-service">
               <div class="icon">
                 <img
@@ -69,7 +79,12 @@ export const ServicesSection = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-left"
+            data-aos-delay="150"
+            data-aos-duration="3000"
+          >
             <div class="single-service">
               <div class="icon">
                 <img
@@ -86,7 +101,12 @@ export const ServicesSection = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-right"
+            data-aos-delay="150"
+            data-aos-duration="3000"
+          >
             <div class="single-service">
               <div class="icon">
                 <img
@@ -103,7 +123,12 @@ export const ServicesSection = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-right"
+            data-aos-delay="150"
+            data-aos-duration="3000"
+          >
             <div class="single-service">
               <div class="icon">
                 <img
@@ -120,7 +145,12 @@ export const ServicesSection = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-right"
+            data-aos-delay="150"
+            data-aos-duration="3000"
+          >
             <div class="single-service">
               <div class="icon">
                 <img

@@ -25,9 +25,10 @@ export const FirstBanner = () => {
             <div class="col-md-5">
               <div
                 class="banner-text"
-                data-aos="zoom-out-right"
-                data-aos-delay="150"
-                data-aos-duration="3000"
+                data-aos="fade-right"
+                data-aos-offset="150"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="2500"
               >
                 <h1>We provide Powerful Web Solutions</h1>
                 <p>
@@ -47,9 +48,10 @@ export const FirstBanner = () => {
                 src={FirstBannerImg}
                 alt="Sisanc Services"
                 class="img-fluid"
-                data-aos="zoom-out-left"
-                data-aos-delay="150"
-                data-aos-duration="3000"
+                data-aos="fade-left"
+                data-aos-offset="150"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="2500"
               />
             </div>
           </Row>

@@ -22,7 +22,10 @@ export const SecondBanner = () => {
           <div class="col-md-5">
             <img
               src={SecondBannerImg}
-              data-aos="zoom-in-right"
+              // data-aos="zoom-in-right"
+              // data-aos-delay="150"
+              // data-aos-duration="3000"
+              data-aos="zoom-out-right"
               data-aos-delay="150"
               data-aos-duration="3000"
               alt="About Us"
@@ -32,7 +35,10 @@ export const SecondBanner = () => {
           <div class="col-md-1"></div>
           <div
             class="col-md-6"
-            data-aos="zoom-in-left"
+            // data-aos="zoom-in-left"
+            // data-aos-delay="150"
+            // data-aos-duration="3000"
+            data-aos="zoom-out-left"
             data-aos-delay="150"
             data-aos-duration="3000"
           >
