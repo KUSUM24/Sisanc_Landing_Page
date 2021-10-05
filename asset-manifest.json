@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Sisanc_Landing_Page/static/css/main.eacb5e79.chunk.css",
-    "main.js": "/Sisanc_Landing_Page/static/js/main.8a682bbe.chunk.js",
-    "main.js.map": "/Sisanc_Landing_Page/static/js/main.8a682bbe.chunk.js.map",
+    "main.js": "/Sisanc_Landing_Page/static/js/main.ac746132.chunk.js",
+    "main.js.map": "/Sisanc_Landing_Page/static/js/main.ac746132.chunk.js.map",
     "runtime-main.js": "/Sisanc_Landing_Page/static/js/runtime-main.6e3ef640.js",
     "runtime-main.js.map": "/Sisanc_Landing_Page/static/js/runtime-main.6e3ef640.js.map",
     "static/css/2.957d1974.chunk.css": "/Sisanc_Landing_Page/static/css/2.957d1974.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.957d1974.chunk.css",
     "static/js/2.b04f2802.chunk.js",
     "static/css/main.eacb5e79.chunk.css",
-    "static/js/main.8a682bbe.chunk.js"
+    "static/js/main.ac746132.chunk.js"
   ]
 }
