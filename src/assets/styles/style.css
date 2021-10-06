@@ -4,7 +4,12 @@ body {
   color: #fff;
   font-weight: 400;
   font-size: 1rem;
-  font-family: "Calibre";
+  font-family: SegoeUI;
+}
+
+@font-face {
+  font-family: Segoe UI;
+  src: url(./fonts/SegoeUI.ttf);
 }
 
 ::-moz-selection {
@@ -38,13 +43,12 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Segoe UI";
 }
 
-.container {
-  max-width: 1170px !important;
+p {
+  font-family: "Segoe UI";
+  font-weight: 500;
 }
 
 .main-banner-sec {
@@ -57,6 +61,8 @@ h5,
 
 a.nav-link {
   color: #fff;
+  font-family: "Segoe UI";
+  font-weight: 500;
 }
 
 .header-banner {
@@ -69,12 +75,15 @@ a.nav-link {
 
 .banner-text h1 {
   color: #f3f3f3;
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 21px;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+  text-transform: capitalize;
 }
 
 .banner-text p {
-  color: #d9d9d9;
+  color: #dddddd;
   font-size: 14px;
 }
 
@@ -83,28 +92,60 @@ a.nav-link {
 }
 
 button.btn.btn-contact {
-  background: #42b4ed;
+  background: #5ab1dc;
   padding: 10px 30px;
   color: #fff;
-  border-radius: 4px;
+  border-radius: 6px;
   margin-top: 15px;
+  font-family: "Segoe UI";
+  font-weight: 500;
 }
 
 .about-us-sec {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .about-us-text h2 {
-  text-transform: capitalize;
-  font-size: 26px;
+  font-size: 35px;
   margin-bottom: 20px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.about-us-text {
+  padding-top: 10px;
+}
+
+.about-us-text span {
+  color: #27146c;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 0.4px;
 }
 
 .about-us-text p {
   text-align: justify;
-  font-size: 15px;
-  color: #575656;
+  font-size: 14px;
+  color: #858b91;
   margin-bottom: 15px;
+  letter-spacing: 0.3px;
+}
+
+.about-img {
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-duration: 3s;
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 20px;
+  }
 }
 
 .title-sec {
@@ -115,23 +156,24 @@ button.btn.btn-contact {
 .title-sec h4 {
   font-size: 14px;
   text-transform: capitalize;
-  color: #5219a4;
+  color: #858b91;
   letter-spacing: 0.6px;
 }
 
 .title-sec h2 {
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 15px;
+  color: #000;
 }
 
 .title-sec p {
-  color: #999999;
-  font-size: 14px;
+  color: #858b91;
+  font-size: 13px;
   line-height: 24px;
 }
 
 .icon {
-  background: #7935d79c;
+  background: #7333d2;
   width: 60px;
   padding: 12px;
   border-radius: 12px;
@@ -144,9 +186,9 @@ button.btn.btn-contact {
 }
 
 .single-service p {
-  font-size: 14px;
-  color: #696969;
-  letter-spacing: 0.3px;
+  font-size: 13px;
+  color: #6b6b6b;
+  font-weight: 500;
 }
 
 .single-service {
@@ -167,14 +209,47 @@ span.whyus {
   font-size: 13px;
 }
 
+.whyus-img {
+  text-align: right;
+  padding-top: 8%;
+}
+
+.whyus {
+  max-height: 330px;
+  text-align: right;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 50s infinite;
+}
+
+/* Animating the elements 
+@keyframes rotate {
+    0%,
+    100% {
+        transform: rotateX(0deg);
+    }
+    40% {
+        transform: rotateY(360deg) ;
+    }
+
+    80% {
+        transform: rotateY(20deg) ;
+    }
+   
+   
+}
+
+*/
+
 .single-points h3 {
   font-size: 17px;
   margin-bottom: 13px;
 }
 
 .single-points p {
-  font-size: 15px;
-  color: #444444;
+  font-size: 14px;
+  color: #858b91;
+  letter-spacing: 0.3px;
 }
 
 .stand-out-sec h2 {
@@ -194,7 +269,7 @@ span.whyus {
 }
 
 .testimonial {
-  background: #7e57c2;
+  background: #2d56b3;
 }
 
 .testimonial .title-sec {
@@ -203,13 +278,17 @@ span.whyus {
 
 .testimonial .title-sec h4,
 .testimonial .title-sec p {
-  color: #d7d7d7;
+  color: #f1f1f1;
+}
+
+.testimonial h2 {
+  color: #fff;
 }
 
 .single-testimonial {
   background: #f9f9f9;
-  padding: 10px 20px;
-  border-radius: 8px;
+  padding: 40px 20px;
+  border-radius: 2px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -221,7 +300,7 @@ span.whyus {
 
 .profile img {
   max-width: 80px;
-  border: 3px solid #7e57c2;
+  border: 3px solid #5ab1dc;
   border-radius: 100px;
 }
 
@@ -236,31 +315,11 @@ span.whyus {
 }
 
 .single-testimonial h4 {
-  font-size: 11px;
-  color: #7e57c2;
+  font-size: 12px;
+  color: #2d56b3;
+  letter-spacing: 0.4px;
 }
-/* Our Team  */
-.our-team {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 0 50px;
-}
-.our-team-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.our-team-title p {
-  text-align: center;
-}
-.our-team-row {
-  margin: 30px 0 !important;
-}
-.team-member--img {
-  width: 300px;
-  height: 300px;
-}
+
 .footer {
   background: #061114;
   padding: 40px 0 20px;
@@ -268,7 +327,6 @@ span.whyus {
   text-align: center;
   font-size: 15px;
   line-height: 25px;
-  border-bottom: 8px solid #7e57c2;
 }
 
 .footer-logo {
@@ -308,4 +366,69 @@ p.footer-about {
   margin-top: 30px;
   font-size: 11px;
   letter-spacing: 0.5px;
+}
+
+.team-sec-section {
+  padding: 50px 0;
+}
+
+.single-team {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  cursor: pointer;
+  position: relative;
+}
+.team-member--img {
+  width: 300px;
+  height: 300px;
+}
+.team-detail {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  /* left: 5%; */
+  /* top: 300px; */
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translate(0%, -100%) scale(0.9);
+  -ms-transform: translate(0%, -100%) scale(0.9);
+  transform: translate(0%, -100%) scale(0.9);
+  background: #2650af;
+  width: 300px;
+  height: 300px;
+  border: 6px solid #5489ff;
+}
+
+.team-sec:hover .team-detail {
+  opacity: 1;
+  visibility: visible;
+  z-index: 100;
+  -webkit-transform: translate(10%, -100%) scale(1);
+  -ms-transform: translate(10%, -100%) scale(1);
+  transform: translate(10%, -100%) scale(1);
+}
+.container {
+  max-width: 1170px !important;
 }
