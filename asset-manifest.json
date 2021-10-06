@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Sisanc_Landing_Page/static/css/main.48ef3826.chunk.css",
-    "main.js": "/Sisanc_Landing_Page/static/js/main.4d8bc546.chunk.js",
-    "main.js.map": "/Sisanc_Landing_Page/static/js/main.4d8bc546.chunk.js.map",
+    "main.css": "/Sisanc_Landing_Page/static/css/main.191d28b1.chunk.css",
+    "main.js": "/Sisanc_Landing_Page/static/js/main.64c57422.chunk.js",
+    "main.js.map": "/Sisanc_Landing_Page/static/js/main.64c57422.chunk.js.map",
     "runtime-main.js": "/Sisanc_Landing_Page/static/js/runtime-main.6e3ef640.js",
     "runtime-main.js.map": "/Sisanc_Landing_Page/static/js/runtime-main.6e3ef640.js.map",
     "static/css/2.957d1974.chunk.css": "/Sisanc_Landing_Page/static/css/2.957d1974.chunk.css",
-    "static/js/2.d48d6398.chunk.js": "/Sisanc_Landing_Page/static/js/2.d48d6398.chunk.js",
-    "static/js/2.d48d6398.chunk.js.map": "/Sisanc_Landing_Page/static/js/2.d48d6398.chunk.js.map",
+    "static/js/2.3efa024e.chunk.js": "/Sisanc_Landing_Page/static/js/2.3efa024e.chunk.js",
+    "static/js/2.3efa024e.chunk.js.map": "/Sisanc_Landing_Page/static/js/2.3efa024e.chunk.js.map",
     "index.html": "/Sisanc_Landing_Page/index.html",
     "static/css/2.957d1974.chunk.css.map": "/Sisanc_Landing_Page/static/css/2.957d1974.chunk.css.map",
-    "static/css/main.48ef3826.chunk.css.map": "/Sisanc_Landing_Page/static/css/main.48ef3826.chunk.css.map",
-    "static/js/2.d48d6398.chunk.js.LICENSE.txt": "/Sisanc_Landing_Page/static/js/2.d48d6398.chunk.js.LICENSE.txt",
-    "static/media/aboutus.867b8751.png": "/Sisanc_Landing_Page/static/media/aboutus.867b8751.png",
+    "static/css/main.191d28b1.chunk.css.map": "/Sisanc_Landing_Page/static/css/main.191d28b1.chunk.css.map",
+    "static/js/2.3efa024e.chunk.js.LICENSE.txt": "/Sisanc_Landing_Page/static/js/2.3efa024e.chunk.js.LICENSE.txt",
     "static/media/style.css": "/Sisanc_Landing_Page/static/media/header-banner.acd56b49.jpg",
+    "static/media/aboutus.867b8751.png": "/Sisanc_Landing_Page/static/media/aboutus.867b8751.png",
     "static/media/header-img.54632b61.png": "/Sisanc_Landing_Page/static/media/header-img.54632b61.png",
     "static/media/logo.4359e0fc.png": "/Sisanc_Landing_Page/static/media/logo.4359e0fc.png",
-    "static/media/teamMember1.fc25418b.webp": "/Sisanc_Landing_Page/static/media/teamMember1.fc25418b.webp",
+    "static/media/team1.42645ea2.png": "/Sisanc_Landing_Page/static/media/team1.42645ea2.png",
     "static/media/teamMember2.6d9ebd2d.webp": "/Sisanc_Landing_Page/static/media/teamMember2.6d9ebd2d.webp",
     "static/media/teamMember3.a7a44838.webp": "/Sisanc_Landing_Page/static/media/teamMember3.a7a44838.webp",
     "static/media/teamMember4.b083aea2.webp": "/Sisanc_Landing_Page/static/media/teamMember4.b083aea2.webp",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.6e3ef640.js",
     "static/css/2.957d1974.chunk.css",
-    "static/js/2.d48d6398.chunk.js",
-    "static/css/main.48ef3826.chunk.css",
-    "static/js/main.4d8bc546.chunk.js"
+    "static/js/2.3efa024e.chunk.js",
+    "static/css/main.191d28b1.chunk.css",
+    "static/js/main.64c57422.chunk.js"
   ]
 }
