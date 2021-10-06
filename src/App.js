@@ -6,10 +6,11 @@ import { SecondBanner } from "./components/SecondBanner";
 import { ServicesSection } from "./components/ServicesSection";
 import { Testimonial } from "./components/Testimonial";
 import { WhyUsSection } from "./components/WhyUsSection";
+import "./assets/styles/style.css";
 
 function App() {
   return (
-    <div>
+    <div className="main-container">
       <FirstBanner />
       <SecondBanner />
       <ServicesSection />

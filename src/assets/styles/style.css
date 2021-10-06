@@ -400,6 +400,7 @@ p.footer-about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
   border-radius: 50%;
   color: #fff;
   text-align: center;
@@ -416,19 +417,46 @@ p.footer-about {
   -ms-transform: translate(0%, -100%) scale(0.9);
   transform: translate(0%, -100%) scale(0.9);
   background: #2650af;
-  width: 315px;
-  height: 315px;
+  width: 400px;
+  height: 400px;
   border: 15px solid #5489ff;
+}
+.team-sec:hover .team-sec-section {
+  opacity: 0.5;
 }
 
 .team-sec:hover .team-detail {
   opacity: 1;
   visibility: visible;
   z-index: 100;
-  -webkit-transform: translate(10%, -100%) scale(1);
-  -ms-transform: translate(10%, -100%) scale(1);
-  transform: translate(10%, -100%) scale(1);
+  -webkit-transform: translate(-5%, -90%) scale(1);
+  -ms-transform: translate(-5%, -90%) scale(1);
+  transform: translate(-5%, -90%) scale(1);
 }
 .container {
   max-width: 1170px !important;
+}
+.member-description {
+  text-align: center;
+  margin-top: 25px;
+}
+.member-description .member-name {
+  text-transform: uppercase;
+  color: #721b6a;
+  font-size: 26px;
+}
+.team-detail .card-member-name {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 26px;
+}
+.team-detail .card-member-designation {
+  font-size: 16px;
+  font-weight: 450;
+}
+.team-detail .member-talent {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0 20px;
+  font-weight: 500;
 }

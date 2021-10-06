@@ -31,40 +31,6 @@ export const OurTeam = () => {
             and scrambled it to make a type specimen book.
           </p>
         </div>
-        {/* <Row className="our-team-row">
-        <div className="col-md-4">
-        <div class="team-sec">
-        <div class="single-team">
-        <img src={member1} class="img-fluid" />
-        </div>
-        
-        <div class="team-detail">
-        <h6>Pratiksha</h6>
-        </div>
-        </div>
-        </div>
-        <img
-        className="team-member--img img-fluid"
-        src={member1}
-        alt="Team Member 1"
-        />
-        
-        <div className="col-md-4">
-        <img className="team-member--img" src={member2} alt="Team Member 2" />
-        </div>
-        <div className="col-md-4">
-        <img className="team-member--img" src={member3} alt="Team Member 3" />
-        </div>
-        <div className="col-md-4 mt-4">
-        <img className="team-member--img" src={member4} alt="Team Member 4" />
-        </div>
-        <div className="col-md-4 mt-4">
-        <img className="team-member--img" src={member5} alt="Team Member 5" />
-        </div>
-        <div className="col-md-4 mt-4">
-        <img className="team-member--img" src={member6} alt="Team Member 6" />
-        </div>
-    </Row> */}
         <div className="row">
           <div className="col-md-4">
             <div className="team-sec">
@@ -73,7 +39,16 @@ export const OurTeam = () => {
               </div>
 
               <div className="team-detail">
-                <h6>Pratiksha</h6>
+                <h6 className="card-member-name m-0">pooja Onkar</h6>
+                <div className="card-member-designation">UI/UX Designer</div>
+                <div className="member-talent">TOP TALENT: Execution</div>
+                <div className="member-quote ">
+                  "Always ask questions and challenge assumptions."
+                </div>
+              </div>
+              <div className="member-description">
+                <div className="member-name">Pooja Onkar</div>
+                <div className="member-designation">UI/UX Designer</div>
               </div>
             </div>
           </div>
@@ -85,7 +60,16 @@ export const OurTeam = () => {
               </div>
 
               <div className="team-detail">
-                <h6>Pratiksha</h6>
+                <h6 className="card-member-name m-0">PRATIKSHA BAKSHETTY</h6>
+                <div className="card-member-designation">Graphic Designer</div>
+                <div className="member-talent">TOP TALENT: DECISION MAKING</div>
+                <div className="member-quote ">
+                  "Every flower must grow through dirt."
+                </div>
+              </div>
+              <div className="member-description">
+                <div className="member-name">Pratiksha Bakshetty</div>
+                <div className="member-designation">Graphic Designer</div>
               </div>
             </div>
           </div>
@@ -97,7 +81,16 @@ export const OurTeam = () => {
               </div>
 
               <div className="team-detail">
-                <h6>Pratiksha</h6>
+                <h6 className="card-member-name m-0">Kusum Rohra</h6>
+                <div className="card-member-designation">Web Developer</div>
+                <div className="member-talent">TOP TALENT: ADAPTATION</div>
+                <div className="member-quote ">
+                  "Be somebody who makes everybody feel like a somebody."
+                </div>
+              </div>
+              <div className="member-description">
+                <div className="member-name">Kusum Rohra</div>
+                <div className="member-designation">Web Developer</div>
               </div>
             </div>
           </div>
