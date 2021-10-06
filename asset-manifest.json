@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Sisanc_Landing_Page/static/css/main.076d8133.chunk.css",
-    "main.js": "/Sisanc_Landing_Page/static/js/main.d6d47739.chunk.js",
-    "main.js.map": "/Sisanc_Landing_Page/static/js/main.d6d47739.chunk.js.map",
+    "main.css": "/Sisanc_Landing_Page/static/css/main.22f277d7.chunk.css",
+    "main.js": "/Sisanc_Landing_Page/static/js/main.eb651f15.chunk.js",
+    "main.js.map": "/Sisanc_Landing_Page/static/js/main.eb651f15.chunk.js.map",
     "runtime-main.js": "/Sisanc_Landing_Page/static/js/runtime-main.6e3ef640.js",
     "runtime-main.js.map": "/Sisanc_Landing_Page/static/js/runtime-main.6e3ef640.js.map",
     "static/css/2.957d1974.chunk.css": "/Sisanc_Landing_Page/static/css/2.957d1974.chunk.css",
@@ -10,12 +10,11 @@
     "static/js/2.3efa024e.chunk.js.map": "/Sisanc_Landing_Page/static/js/2.3efa024e.chunk.js.map",
     "index.html": "/Sisanc_Landing_Page/index.html",
     "static/css/2.957d1974.chunk.css.map": "/Sisanc_Landing_Page/static/css/2.957d1974.chunk.css.map",
-    "static/css/main.076d8133.chunk.css.map": "/Sisanc_Landing_Page/static/css/main.076d8133.chunk.css.map",
+    "static/css/main.22f277d7.chunk.css.map": "/Sisanc_Landing_Page/static/css/main.22f277d7.chunk.css.map",
     "static/js/2.3efa024e.chunk.js.LICENSE.txt": "/Sisanc_Landing_Page/static/js/2.3efa024e.chunk.js.LICENSE.txt",
     "static/media/style.css": "/Sisanc_Landing_Page/static/media/header-banner.acd56b49.jpg",
     "static/media/aboutus.867b8751.png": "/Sisanc_Landing_Page/static/media/aboutus.867b8751.png",
     "static/media/aboutus.da7dbc23.svg": "/Sisanc_Landing_Page/static/media/aboutus.da7dbc23.svg",
-    "static/media/logo.4359e0fc.png": "/Sisanc_Landing_Page/static/media/logo.4359e0fc.png",
     "static/media/team1.42645ea2.png": "/Sisanc_Landing_Page/static/media/team1.42645ea2.png",
     "static/media/teamMember2.6d9ebd2d.webp": "/Sisanc_Landing_Page/static/media/teamMember2.6d9ebd2d.webp",
     "static/media/teamMember3.a7a44838.webp": "/Sisanc_Landing_Page/static/media/teamMember3.a7a44838.webp",
@@ -29,7 +28,7 @@
     "static/js/runtime-main.6e3ef640.js",
     "static/css/2.957d1974.chunk.css",
     "static/js/2.3efa024e.chunk.js",
-    "static/css/main.076d8133.chunk.css",
-    "static/js/main.d6d47739.chunk.js"
+    "static/css/main.22f277d7.chunk.css",
+    "static/js/main.eb651f15.chunk.js"
   ]
 }
