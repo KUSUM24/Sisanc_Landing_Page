@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Header } from "../common/Header";
 import "../assets/styles/style.css";
 import { Container, Row } from "react-bootstrap";
-import FirstBannerImg from "../assets/images/header-img.png";
+import FirstBannerImg from "../assets/images/web-dev.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

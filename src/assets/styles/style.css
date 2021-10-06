@@ -43,11 +43,11 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: "Segoe UI";
+  /* font-family: "Segoe UI"; */
 }
 
 p {
-  font-family: "Segoe UI";
+  /* font-family: "Segoe UI"; */
   font-weight: 500;
 }
 
@@ -416,9 +416,9 @@ p.footer-about {
   -ms-transform: translate(0%, -100%) scale(0.9);
   transform: translate(0%, -100%) scale(0.9);
   background: #2650af;
-  width: 300px;
-  height: 300px;
-  border: 6px solid #5489ff;
+  width: 315px;
+  height: 315px;
+  border: 15px solid #5489ff;
 }
 
 .team-sec:hover .team-detail {
