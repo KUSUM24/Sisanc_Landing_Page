@@ -25,14 +25,18 @@ export const ContactUs = () => {
               </div>
               <div className="contact-type">Phone 1</div>
               <div className="contact-detail h3">+91-983 921 1611</div>
-              <a href="tel:+919839211611" className="contact-btn">
+              <a
+                href="tel:+919839211611"
+                className="contact-btn"
+                id="contact-btn-1"
+              >
                 Call Us
               </a>
             </div>
           </div>
           <div
             class="col-md-4"
-            data-aos="fade-down"
+            data-aos="fade-up"
             data-aos-delay="150"
             data-aos-duration="3000"
           >
@@ -43,7 +47,11 @@ export const ContactUs = () => {
               </div>
               <div className="contact-type">Phone 2</div>
               <div className="contact-detail h3">+91-878 822 0674</div>
-              <a href="tel:+918788220674" className="contact-btn">
+              <a
+                href="tel:+918788220674"
+                className="contact-btn"
+                id="contact-btn-2"
+              >
                 Call Us
               </a>
             </div>
@@ -61,7 +69,11 @@ export const ContactUs = () => {
               </div>
               <div className="contact-type">Email</div>
               <div className="contact-detail h3">info@sisanc.com</div>
-              <a href="mailto:info@sisanc.com" className="contact-btn">
+              <a
+                href="mailto:info@sisanc.com"
+                className="contact-btn"
+                id="contact-btn-3"
+              >
                 Email Us
               </a>
             </div>

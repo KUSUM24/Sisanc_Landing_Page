@@ -5,6 +5,9 @@ import { Container, Row } from "react-bootstrap";
 import FirstBannerImg from "../assets/images/web-dev.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import animate1 from "../assets/images/animate1.png";
+import animate2 from "../assets/images/animate2.png";
+import animate3 from "../assets/images/animate3.png";
 
 export const FirstBanner = () => {
   useEffect(() => {
@@ -53,6 +56,11 @@ export const FirstBanner = () => {
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="2500"
               />
+              {/* <div>
+                <img className="animate1" src={animate1} />
+                <img className="animate2" src={animate2} />
+                <img className="animate3" src={animate3} />
+              </div> */}
             </div>
           </Row>
         </Container>

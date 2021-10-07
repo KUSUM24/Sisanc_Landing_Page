@@ -43,11 +43,11 @@ h5,
 .h3,
 .h4,
 .h5 {
-  /* font-family: "Segoe UI"; */
+  font-family: "Segoe UI";
 }
 
 p {
-  /* font-family: "Segoe UI"; */
+  font-family: "Segoe UI";
   font-weight: 500;
 }
 
@@ -114,7 +114,7 @@ button.btn.btn-contact {
 }
 
 .about-us-text {
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 .about-us-text span {
@@ -126,7 +126,6 @@ button.btn.btn-contact {
 }
 
 .about-us-text p {
-  text-align: justify;
   font-size: 14px;
   color: #858b91;
   margin-bottom: 15px;
@@ -168,7 +167,7 @@ button.btn.btn-contact {
 
 .title-sec p {
   color: #858b91;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 24px;
 }
 
@@ -197,7 +196,7 @@ button.btn.btn-contact {
 
 .services,
 .testimonial {
-  background: #f5efff;
+  /*background: #f5efff;*/
   padding: 80px 0 30px;
 }
 
@@ -371,7 +370,6 @@ p.footer-about {
 .team-sec-section {
   padding: 50px 0;
 }
-
 .single-team {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -408,8 +406,6 @@ p.footer-about {
   opacity: 0;
   visibility: hidden;
   position: absolute;
-  /* left: 5%; */
-  /* top: 300px; */
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -495,7 +491,6 @@ p.footer-about {
   flex-direction: column;
   align-items: center;
 }
-
 .contact-us-card .contact-icon {
   background-color: black;
   border-radius: 50%;
@@ -526,6 +521,91 @@ p.footer-about {
   color: white !important;
   transition: 0.2s ease-in-out;
 }
-.contact-us {
-  /* background: #2d56b3; */
+#contact-btn-3 {
+  border: 2px solid rgb(13, 184, 118);
+}
+#contact-btn-2 {
+  border: 2px solid #7c3775;
+}
+#contact-btn-3:hover {
+  background-color: rgb(13, 184, 118);
+}
+#contact-btn-2:hover {
+  background-color: #7c3775;
+}
+.who-we-are {
+  padding: 50px 0;
+  position: relative;
+}
+
+.gray-box {
+  background: #efefef6b;
+  width: 41%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+}
+
+.about-title {
+  max-width: 56%;
+}
+
+.about-title span {
+  color: #6125b9;
+  font-weight: 600;
+}
+
+.about-title h2 {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.about-us-text a {
+  color: #5ab1dc;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+}
+
+.about-us-text span {
+  color: #5ab1dc;
+  position: absolute;
+  top: 1px;
+}
+
+p.t-head {
+  font-size: 15px;
+}
+.animate1 {
+  position: absolute;
+  right: 20%;
+  /* top: 30%; */
+  animation: bounceHero 2s ease-in-out infinite;
+}
+.animate2 {
+  position: absolute;
+  right: 30%;
+  top: 30%;
+  animation: bounceHero 5s ease-in-out infinite;
+}
+
+.animate3 {
+  position: absolute;
+  right: 20%;
+  top: 30%;
+  animation: bounceHero 6s ease-in-out infinite;
+}
+@keyframes bounceHero {
+  0% {
+    top: 0px;
+  }
+
+  50% {
+    top: 25px;
+  }
+
+  100% {
+    top: 0px;
+  }
 }
