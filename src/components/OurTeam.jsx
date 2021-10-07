@@ -32,13 +32,53 @@ export const OurTeam = () => {
           </p>
         </div>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-4 mb-5">
             <div className="team-sec">
               <div className="single-team">
                 <img src={member1} className="team-member--img img-fluid" />
               </div>
 
-              <div className="team-detail">
+              <div className="team-detail" id="team-member-1">
+                <h6 className="card-member-name m-0">pooja Onkar</h6>
+                <div className="card-member-designation">UI/UX Designer</div>
+                <div className="member-talent">TOP TALENT: Execution</div>
+                <div className="member-quote ">
+                  "Always ask questions and challenge assumptions."
+                </div>
+              </div>
+              <div className="member-description">
+                <div className="member-name">Pooja Onkar</div>
+                <div className="member-designation">UI/UX Designer</div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-5">
+            <div className="team-sec">
+              <div className="single-team">
+                <img src={member1} className="team-member--img img-fluid" />
+              </div>
+
+              <div className="team-detail" id="team-member-2">
+                <h6 className="card-member-name m-0">pooja Onkar</h6>
+                <div className="card-member-designation">UI/UX Designer</div>
+                <div className="member-talent">TOP TALENT: Execution</div>
+                <div className="member-quote ">
+                  "Always ask questions and challenge assumptions."
+                </div>
+              </div>
+              <div className="member-description">
+                <div className="member-name">Pooja Onkar</div>
+                <div className="member-designation">UI/UX Designer</div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-5">
+            <div className="team-sec">
+              <div className="single-team">
+                <img src={member1} className="team-member--img img-fluid" />
+              </div>
+
+              <div className="team-detail" id="team-member-3">
                 <h6 className="card-member-name m-0">pooja Onkar</h6>
                 <div className="card-member-designation">UI/UX Designer</div>
                 <div className="member-talent">TOP TALENT: Execution</div>
@@ -59,7 +99,28 @@ export const OurTeam = () => {
                 <img src={member1} className="team-member--img img-fluid" />
               </div>
 
-              <div className="team-detail">
+              <div className="team-detail" id="team-member-4">
+                <h6 className="card-member-name m-0">pooja Onkar</h6>
+                <div className="card-member-designation">UI/UX Designer</div>
+                <div className="member-talent">TOP TALENT: Execution</div>
+                <div className="member-quote ">
+                  "Always ask questions and challenge assumptions."
+                </div>
+              </div>
+              <div className="member-description">
+                <div className="member-name">Pooja Onkar</div>
+                <div className="member-designation">UI/UX Designer</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="team-sec">
+              <div className="single-team">
+                <img src={member1} className="team-member--img img-fluid" />
+              </div>
+
+              <div className="team-detail" id="team-member-5">
                 <h6 className="card-member-name m-0">PRATIKSHA BAKSHETTY</h6>
                 <div className="card-member-designation">Graphic Designer</div>
                 <div className="member-talent">TOP TALENT: DECISION MAKING</div>
@@ -80,7 +141,7 @@ export const OurTeam = () => {
                 <img src={member1} className="team-member--img img-fluid" />
               </div>
 
-              <div className="team-detail">
+              <div className="team-detail" id="team-member-6">
                 <h6 className="card-member-name m-0">Kusum Rohra</h6>
                 <div className="card-member-designation">Web Developer</div>
                 <div className="member-talent">TOP TALENT: ADAPTATION</div>

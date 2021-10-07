@@ -460,3 +460,71 @@ p.footer-about {
   margin: 20px 0 20px;
   font-weight: 500;
 }
+#team-member-1 {
+  background-color: #5dbeeb;
+  border: 15px solid #9fd5ee;
+}
+#team-member-2 {
+  background-color: rgb(13, 184, 118);
+  border: 15px solid #aed0c5;
+}
+#team-member-4 {
+  background-color: #c95670;
+  border: 15px solid #e4abb8;
+}
+#team-member-6 {
+  background-color: #7c3775;
+  border: 15px solid #be9bba;
+}
+/* Contact Us  */
+.contact-us {
+  padding: 40px;
+  background-color: #f5efff;
+}
+.contact-us-title {
+  text-align: center;
+}
+.contact-us-card {
+  background-color: white;
+  padding: 40px 0;
+  box-shadow: 0px 5px 15px rgb(180, 178, 178);
+  border-radius: 10px;
+  margin: 30px 0 50px;
+  border-top: 10px solid rgb(13, 184, 118);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-us-card .contact-icon {
+  background-color: black;
+  border-radius: 50%;
+  padding: 20px;
+}
+#contact-card-1 {
+  border-top: 10px solid rgb(19, 23, 247);
+}
+#contact-card-2 {
+  border-top: 10px solid #7c3775;
+}
+.contact-us-card .contact-type {
+  margin: 15px 0;
+  font-size: 17px;
+}
+
+.contact-btn {
+  border: 2px solid blue;
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  margin: 15px 0 0;
+}
+.contact-btn:hover {
+  background-color: blue;
+  color: white !important;
+  transition: 0.2s ease-in-out;
+}
+.contact-us {
+  /* background: #2d56b3; */
+}

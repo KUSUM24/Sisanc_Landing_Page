@@ -7,6 +7,7 @@ import { ServicesSection } from "./components/ServicesSection";
 import { Testimonial } from "./components/Testimonial";
 import { WhyUsSection } from "./components/WhyUsSection";
 import "./assets/styles/style.css";
+import { ContactUs } from "./components/ContactUs";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <WhyUsSection />
       <Testimonial />
       <OurTeam />
+      <ContactUs />
       <Footer />
     </div>
   );
