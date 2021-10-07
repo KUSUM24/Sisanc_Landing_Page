@@ -15,7 +15,7 @@ export const ContactUs = () => {
         <Row>
           <div
             class="col-md-4"
-            data-aos="zoom-in"
+            data-aos="fade-right"
             data-aos-delay="150"
             data-aos-duration="3000"
           >
@@ -32,7 +32,7 @@ export const ContactUs = () => {
           </div>
           <div
             class="col-md-4"
-            data-aos="zoom-in"
+            data-aos="fade-down"
             data-aos-delay="150"
             data-aos-duration="3000"
           >
@@ -50,7 +50,7 @@ export const ContactUs = () => {
           </div>
           <div
             class="col-md-4"
-            data-aos="zoom-in"
+            data-aos="fade-left"
             data-aos-delay="150"
             data-aos-duration="3000"
           >
